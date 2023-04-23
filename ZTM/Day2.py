@@ -2,6 +2,9 @@
 
 # print(4 == 5)
 
+
+##############################
+
 # Exercise for if-else condition
 
 is_magician = False
@@ -21,4 +24,15 @@ elif not is_magician:
 
 else:
     print("Exit block")
+
+
+######################
+
+for item in 'Zero to Mastery':
+    print(item)
+
+for item in [1, 2, 3, 4, 5]:
+    print(item)
+
+
 
