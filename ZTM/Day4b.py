@@ -2,6 +2,12 @@
 
 # iterate over picture
 
+# DRY
+# Clean
+# Reusability
+# Readability
+
+
 picture = [
     [0,0,0,1,0,0,0],
     [0,0,1,1,1,0,0],
