@@ -2,7 +2,19 @@ SRE INTERVIEW PREPARATION
 Programming
 ○ Python basics (skip videos if you already know the concepts)
 ■ https://www.youtube.com/watch?v=mHtjvDEdlas&list=PLhqPDa2HoaAZN9pG0c
-UugTmgAddRtF3zK
+UugTmgAddRtF3zK - working on
+
+Video 1-Done
+Video 2-Working
+Video 3
+Video 4
+Video 5
+Video 6
+Video 7
+Video 8
+Video 9
+Video 10
+
 
 
 ○ Solve basic questions in Python - hackerrank easy
