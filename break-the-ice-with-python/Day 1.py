@@ -13,4 +13,6 @@ elif fortune == 2:
     print("A conclusion is simply the place where you got tired of thinking.")
 
 elif fortune == 3:
-    print("No snowflake feels responsible in an avalanche.")    
+    print("No snowflake feels responsible in an avalanche.")
+
+
