@@ -7,3 +7,4 @@ resp = client.run_instances(ImageId='ami-0376ec8eacdf70aae',
                             MaxCount=1)
 for instance in resp['Instances']:
     print(instance['InstanceId'])
+    
