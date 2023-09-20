@@ -1,0 +1,1 @@
+print('Welcome 32.py')

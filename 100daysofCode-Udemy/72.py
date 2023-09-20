@@ -1,0 +1,1 @@
+print('Welcome 72.py')
