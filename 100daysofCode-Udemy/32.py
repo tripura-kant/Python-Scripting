@@ -1,10 +1,15 @@
 class Dog():
-    def __init__(self, bread, name, spots):
+    species = 'mammal'
+
+    def __init__(self, bread, name):
         self.bread = bread
         self.name = name
-        self.spots = spots
+
+    def bark(self):
+        print("whooo!")
 
 
-my_dog = Dog(bread='lab', name='Sammy', spots=False)
-
+my_dog = Dog(bread='lal', name='tomy')
 print(my_dog.name)
+print((my_dog.bread))
+print(my_dog.bark())
