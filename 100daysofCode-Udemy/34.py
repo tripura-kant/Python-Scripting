@@ -1,1 +1,10 @@
-print('Welcome 34.py')
+# Inheritance
+
+class Animal():
+    def __init__(self):
+        print('hiiiiii')
+
+
+myanimal = Animal()
+
+print(myanimal)
