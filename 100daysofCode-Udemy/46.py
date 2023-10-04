@@ -7,12 +7,12 @@ class test_cap(unittest.TestCase):
     def test_one_word(self):
         text = 'python'
         result = cap.cap_text(text)
-        self.assertEquals(result, 'Python')
+        self.assertEqual(result, 'Python')
 
     def test_multiple_words(self):
         text = 'monty python'
-        result = cap.cap_text
-        self.assertEquals(result, 'Monty Python')
+        result = cap.cap_text(text)
+        self.assertEqual(result, 'Monty Python')
 
 
 if __name__ == '__main__':
