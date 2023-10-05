@@ -1,1 +1,5 @@
-print('Welcome 47.py')
+def func():
+    return 1
+
+
+print(func())
