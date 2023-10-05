@@ -3,3 +3,4 @@ def cap_text(text):
 
 
 print(hello)
+print(hello2)
