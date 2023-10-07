@@ -1,1 +1,3 @@
-print('Welcome 51.py')
+s = 'hello'
+s = iter(s)
+print(next(s))
