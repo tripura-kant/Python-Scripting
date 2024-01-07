@@ -20,6 +20,18 @@ while (True):
     elif city == "Seattle":
         hour = hour - 7
 
+    elif city == "Cairo":
+        hour = hour + 4
+
+    elif city == "Karachi":
+        hour = hour + 5.30
+
+    elif city == "Kolkata":
+        hour = hour + 5.30
+
+    elif city == "Shanghai":
+        hour = hour + 45.30
+
     ## add more cities here
     elif city == "Kolkata":
         hour = hour - 8
