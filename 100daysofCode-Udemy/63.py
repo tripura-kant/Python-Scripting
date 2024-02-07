@@ -10,4 +10,3 @@ if (a > b):
     print("hello")
 else:
     print("a is greater than b")
-   
