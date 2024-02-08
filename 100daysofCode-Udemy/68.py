@@ -1,1 +1,22 @@
-print('Welcome 68.py')
+'''
+Cristiano is from Portugal and Messi is from Argentina.
+Cristiano plays for Al-Nassr and Messi plays for PSG.
+
+Find the count of occurrence of each unique word in the string
+E.g {“Cristiano”: 2, “Portugal”: 1, “Messi”: 2,  …….}
+
+'''
+
+text = "Cristiano is from Portugal and Messi is from Argentina. Cristiano plays for Al-Nassr and Messi plays for PSG."
+words = text.split()
+# print(words)
+
+words_count = {}
+
+for word in words:
+    if word in words_count:
+        words_count[word] += 1
+    else:
+        words_count[word] = 1
+
+print(words_count)
