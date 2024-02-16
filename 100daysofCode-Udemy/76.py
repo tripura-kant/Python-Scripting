@@ -1,1 +1,0 @@
-print('Welcome 76.py')
