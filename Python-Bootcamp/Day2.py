@@ -47,7 +47,7 @@
 #
 # print(int(bmi))
 
-aadas
+##
 score = 3
 height = 1.8
 isWinning = True
@@ -64,3 +64,10 @@ years_left = 90 - age
 week_left = 52 * years_left
 
 print(f"You have {week_left} weeks left.")
+
+
+split_bill_Total = input("How much is the bill? ")
+split_bill = int(split_bill_Total) / 5
+print(split_bill)
+each_person_pays = int(split_bill) * 1.12
+print(round(each_person_pays, 2))
