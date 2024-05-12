@@ -47,7 +47,7 @@
 #
 # print(int(bmi))
 
-
+aadas
 score = 3
 height = 1.8
 isWinning = True
