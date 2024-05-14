@@ -48,27 +48,41 @@
 # print(int(bmi))
 
 ##
-score = 3
-height = 1.8
-isWinning = True
-score += 1
-
-print(f" your score is {height}, you are wiing by {score}")
-
-age = int(input("age"))
-# 🚨 Don't change the code above 👆
-# Write your code below this line 👇
-
-years_left = 90 - age
-
-week_left = 52 * years_left
-
-print(f"You have {week_left} weeks left.")
-
-
-split_bill_Total = input("How much is the bill? ")
-split_bill = int(split_bill_Total) / 5
-print(split_bill)
-each_person_pays = int(split_bill) * 1.12
-print(round(each_person_pays, 2))
+# score = 3
+# height = 1.8
+# isWinning = True
+# score += 1
 #
+# print(f" your score is {height}, you are wiing by {score}")
+#
+# age = int(input("age"))
+# # 🚨 Don't change the code above 👆
+# # Write your code below this line 👇
+#
+# years_left = 90 - age
+#
+# week_left = 52 * years_left
+#
+# print(f"You have {week_left} weeks left.")
+#
+#
+# split_bill_Total = input("How much is the bill? ")
+# split_bill = int(split_bill_Total) / 5
+# print(split_bill)
+# each_person_pays = int(split_bill) * 1.12
+# print(round(each_person_pays, 2))
+
+year_input = input("Enter a year  ")
+
+year = int(year_input)
+
+if year % 4 == 0 :
+  if year % 100 == 0:
+    if year % 400 == 0:
+      print("Leap year")
+    else:
+      print("Not leap year")
+  else:
+      print("Leap year")
+else:
+    print("Not leap year")
