@@ -17,10 +17,10 @@
 #     print("ODD")
 #Multiple if else
 
-height = input("Enter heght")
+height = int(input("Enter height "))
 bill = 0
 
-if height >=120:
+if height >= 120:
     print("You can ride the roalacoster")
     age = int("What is your age? ")
     if age < 12:
@@ -40,4 +40,4 @@ if height >=120:
     print(f"Your final bill is {bill}")
 
 else:
-    print("")
+    print("Sorry you need to grow older")
