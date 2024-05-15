@@ -17,7 +17,7 @@
 #     print("ODD")
 #Multiple if else
 
-
+height = input("Enter heght")
 bill = 0
 
 if height >=120:
@@ -34,7 +34,10 @@ if height >=120:
         print("Your ticket is $12 ")
 
     wants_photo = input("Do you want a photo taken ? Y OR N")
-        if wants_photo == "Y":
-            bill += 3
+    if wants_photo == "Y":
+        bill += 3
 
     print(f"Your final bill is {bill}")
+
+else:
+    print("")
