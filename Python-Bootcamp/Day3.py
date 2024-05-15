@@ -24,4 +24,13 @@ if height >=120:
     print("You can ride the roalacoster")
     age = int("What is your age? ")
     if age < 12:
-        
+        bill = 5
+        print("Child ticket worth $5")
+    elif age < 18:
+        bill = 7
+        print("Youth tickets are $7")
+    else:
+        bill = 12
+        print("Your ticket is $12 ")
+
+    wants_photo = input()
