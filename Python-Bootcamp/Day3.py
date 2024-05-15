@@ -8,10 +8,20 @@
 
 
 # Execrcise
+#
+# numbers=int(input("Enter no "))
+#
+# if numbers % 2 == 0:
+#     print("EVEN")
+# else:
+#     print("ODD")
+#Multiple if else
 
-numbers=int(input("Enter no "))
 
-if numbers % 2 == 0:
-    print("EVEN")
-else:
-    print("ODD")
+bill = 0
+
+if height >=120:
+    print("You can ride the roalacoster")
+    age = int("What is your age? ")
+    if age < 12:
+        

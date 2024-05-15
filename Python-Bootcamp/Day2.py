@@ -71,18 +71,21 @@
 # print(split_bill)
 # each_person_pays = int(split_bill) * 1.12
 # print(round(each_person_pays, 2))
+#
+# year_input = input("Enter a year  ")
+#
+# year = int(year_input)
+#
+# if year % 4 == 0 :
+#   if year % 100 == 0:
+#     if year % 400 == 0:
+#       print("Leap year")
+#     else:
+#       print("Not leap year")
+#   else:
+#       print("Leap year")
+# else:
+#     print("Not leap year")
 
-year_input = input("Enter a year  ")
 
-year = int(year_input)
-
-if year % 4 == 0 :
-  if year % 100 == 0:
-    if year % 400 == 0:
-      print("Leap year")
-    else:
-      print("Not leap year")
-  else:
-      print("Leap year")
-else:
-    print("Not leap year")
+#Multiple if else
