@@ -22,7 +22,7 @@ bill = 0
 
 if height >= 120:
     print("You can ride the roalacoster")
-    age = int("What is your age? ")
+    age = int(input("What is your age? "))
     if age < 12:
         bill = 5
         print("Child ticket worth $5")
