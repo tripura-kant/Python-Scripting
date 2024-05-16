@@ -116,3 +116,16 @@ if random_num == 1:
   print("Heads")
 if random_num == 0:
   print("Tails")
+
+names = names_string.split(", ")
+# names_string contains the input values provided.
+# The code above converts the input into an array seperating
+# each name in the input by a comma and space.
+# 🚨 Don't change the code above 👆
+import random
+
+num_items = len(names)
+
+random_choice = random.randint(0, num_items-1)
+
+print(f"{names[random_choice]} is going to buy the meal today!")
