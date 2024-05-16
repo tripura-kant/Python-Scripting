@@ -103,7 +103,16 @@
 # else:
 #   print(f"Your score is {score}.")
 
-import random
+# import random
+#
+# random_integer = random.randint(1, 10)
+# print(random_integer)
 
-random_integer = random.randint(1, 10)
-print(random_integer) 
+import random
+random_num = random.randint(0, 1)
+#print(random_num)
+
+if random_num == 1:
+  print("Heads")
+if random_num == 0:
+  print("Tails")
