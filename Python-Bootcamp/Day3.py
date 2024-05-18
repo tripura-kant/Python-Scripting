@@ -138,7 +138,7 @@
 #
 # print(dirty_dozen)
 # print(dirty_dozen[0])
-
+import random
 user_choice = input("What you want to choose? Type 0 for Rock 1 for paper and 2 for scissor?\n")
 
 computer_choice = random.randint(0, 2)
