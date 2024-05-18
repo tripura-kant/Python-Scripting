@@ -130,11 +130,16 @@
 #
 # print(f"{names[random_choice]} is going to buy the meal today!")
 
+#
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+#
+# dirty_dozen = [fruits, vegetables]
+#
+# print(dirty_dozen)
+# print(dirty_dozen[0])
 
-fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
-vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+user_choice = input("What you want to choose? Type 0 for Rock 1 for paper and 2 for scissor?\n")
 
-dirty_dozen = [fruits, vegetables]
-
-print(dirty_dozen)
-print(dirty_dozen[0])
+computer_choice = random.randint(0, 2)
+print(f"computer choose {computer_choice}")
