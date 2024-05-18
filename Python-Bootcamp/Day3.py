@@ -148,3 +148,5 @@ if user_choice == 0 and computer_choice == 2:
     print("You win")
 elif computer_choice > user_choice:
     print("Younloose")
+else:
+    print("invalid")
