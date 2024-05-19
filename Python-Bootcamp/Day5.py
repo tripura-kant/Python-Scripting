@@ -4,10 +4,10 @@
 
 
 # Input a Python list of student heights
-student_heights = input("enter student").split()
-for n in range(0, len(student_heights)):
-    student_heights[n] = int(student_heights[n])
-# 🚨 Don't change the code above 👆
+# student_heights = input("enter student").split()
+# for n in range(0, len(student_heights)):
+#     student_heights[n] = int(student_heights[n])
+# # 🚨 Don't change the code above 👆
 
 # Write your code below this row 👇
 # total_heights = 0
@@ -25,18 +25,18 @@ for n in range(0, len(student_heights)):
 
 # for loop to find highest score
 
-    # Input a list of student scores
-    student_scores = input("Enter scores").split()
-    for n in range(0, len(student_scores)):
-        student_scores[n] = int(student_scores[n])
+    # # Input a list of student scores
+student_scores = int(input("Enter scores").split())
+# for n in range(0, len(student_scores)):
+#     student_scores[n] = int(student_scores[n])
 
-    # Write your code below this row 👇
-    print(student_scores)
+# Write your code below this row 👇
+print(student_scores)
 
-    heighest_score = 0
+heighest_score = 0
 
-    for score in student_scores:
-        if score > heighest_score:
-            heighest_score = score
+for score in student_scores:
+    if score > heighest_score:
+        heighest_score = score
 
-    print(f"The highest score in the class is: {heighest_score}")
+print(f"The highest score in the class is: {heighest_score}")
