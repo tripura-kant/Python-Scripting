@@ -26,9 +26,9 @@
 # for loop to find highest score
 
     # # Input a list of student scores
-student_scores = int(input("Enter scores").split())
-# for n in range(0, len(student_scores)):
-#     student_scores[n] = int(student_scores[n])
+student_scores = input("Enter scores    ").split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
 
 # Write your code below this row 👇
 print(student_scores)
