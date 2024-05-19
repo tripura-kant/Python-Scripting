@@ -46,8 +46,21 @@
 # for number in range(1, 10):
 #     print(number)
 
-total = 0
+# total = 0
+#
+# for number in range(1, 6):
+#     total += number
+# print(total)
 
-for number in range(1, 6):
-    total += number
-print(total)
+#write a program that calculates the sum of all the even numbers from 1 to X
+
+target = int(input("enter no  ")) # Enter a number between 0 and 1000
+# 🚨 Do not change the code above ☝️
+
+# Write your code here 👇
+
+sum = 0
+for number in range (0, target+1, 2):
+  sum += number
+
+print(sum)
