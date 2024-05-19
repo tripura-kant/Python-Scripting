@@ -41,3 +41,7 @@
 #
 # print(f"The highest score in the class is: {heighest_score}")
 
+# Range
+
+for number in range(1, 10):
+    print(number)
