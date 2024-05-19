@@ -54,13 +54,26 @@
 
 #write a program that calculates the sum of all the even numbers from 1 to X
 
-target = int(input("enter no  ")) # Enter a number between 0 and 1000
-# 🚨 Do not change the code above ☝️
+# target = int(input("enter no  ")) # Enter a number between 0 and 1000
+# # 🚨 Do not change the code above ☝️
+#
+# # Write your code here 👇
+#
+# sum = 0
+# for number in range (0, target+1, 2):
+#   sum += number
+#
+# print(sum)
 
-# Write your code here 👇
 
-sum = 0
-for number in range (0, target+1, 2):
-  sum += number
+ #FizzBuzz game.
 
-print(sum)
+for num in range(1, 101):
+  if num % 3 == 0 and num % 5 == 0:
+    print("FizzBuzz")
+  elif num % 3 == 0:
+    print("Fizz")
+  elif num % 5 == 0:
+    print("Buzz")
+  else:
+    print(num)
