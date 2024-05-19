@@ -10,15 +10,33 @@ for n in range(0, len(student_heights)):
 # 🚨 Don't change the code above 👆
 
 # Write your code below this row 👇
-total_heights = 0
+# total_heights = 0
+#
+# for height in student_heights:
+#     total_heights += height
+#
+# no_st = len(student_heights)
+#
+# avg_heights = int(total_heights / no_st)
+#
+# print(f"total height = {total_heights}")
+# print(f"number of students = {no_st}")
+# print(f"average height = {avg_heights}")
 
-for height in student_heights:
-    total_heights += height
+# for loop to find highest score
 
-no_st = len(student_heights)
+    # Input a list of student scores
+    student_scores = input("Enter scores").split()
+    for n in range(0, len(student_scores)):
+        student_scores[n] = int(student_scores[n])
 
-avg_heights = int(total_heights / no_st)
+    # Write your code below this row 👇
+    print(student_scores)
 
-print(f"total height = {total_heights}")
-print(f"number of students = {no_st}")
-print(f"average height = {avg_heights}")
+    heighest_score = 0
+
+    for score in student_scores:
+        if score > heighest_score:
+            heighest_score = score
+
+    print(f"The highest score in the class is: {heighest_score}")
