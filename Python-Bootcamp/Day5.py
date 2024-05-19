@@ -17,6 +17,8 @@ for height in student_heights:
 
 no_st = len(student_heights)
 
+avg_heights = total_heights / no_st
+
 print(f"total height = {total_heights}")
 print(f"number of students = {no_st}")
-print(f"average height = {total_heights}")
+print(f"average height = {avg_heights}")
