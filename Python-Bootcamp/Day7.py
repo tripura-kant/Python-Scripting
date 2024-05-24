@@ -5,10 +5,10 @@ chosen_word = random.choice(word_list)
 
 print(f'Pssst, the solution is {chosen_word}.')
 
-dispaly = []
+display = []
 for letter in chosen_word:
   display += "_"
-print(dispaly)
+print(display)
 
 
 #TODO-2: - Loop through each position in the chosen_word;
