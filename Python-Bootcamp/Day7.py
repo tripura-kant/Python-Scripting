@@ -7,7 +7,7 @@ print(f'Pssst, the solution is {chosen_word}.')
 
 dispaly = []
 for letter in chosen_word:
-  dispaly += "_"
+  display += "_"
 print(dispaly)
 
 
@@ -23,3 +23,5 @@ for position in range(len(chosen_word)):
   letter = chosen_word[position]
   if letter == guess:
     display[position] = letter
+
+print(display)
