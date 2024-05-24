@@ -5,6 +5,10 @@ chosen_word = random.choice(word_list)
 
 print(f'Pssst, the solution is {chosen_word}.')
 
+dispaly = []
+for letter in chosen_word:
+  dispaly += "_"
+print(dispaly)
 
 guess = input("Guess a letter: ").lower()
 for letter in chosen_word:
