@@ -36,7 +36,7 @@ def paint_calc(height, width, cover):
 # Define a function called paint_calc() so the code below works.
 
 # 🚨 Don't change the code below 👇
-test_h = int(input("height"))  # Height of wall (m)
-test_w = int(input("width"))  # Width of wall (m)
+test_h = int(input("height  "))  # Height of wall (m)
+test_w = int(input("width   "))  # Width of wall (m)
 coverage = 5
 paint_calc(height=test_h, width=test_w, cover=coverage)
