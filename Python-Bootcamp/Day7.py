@@ -26,6 +26,7 @@ for position in range(len(chosen_word)):
   if letter == guess:
     display[position] = letter
 
+if 
 
 if guess not in chosen_word:
   lives -= 1
