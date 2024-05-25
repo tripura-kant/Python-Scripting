@@ -24,4 +24,11 @@ for position in range(len(chosen_word)):
   if letter == guess:
     display[position] = letter
 
+
+if guess not in chosen_word:
+  lives -= 1
+  if lives == 0:
+    end_of_game = True
+      print("End of game")
+
 print(display)
