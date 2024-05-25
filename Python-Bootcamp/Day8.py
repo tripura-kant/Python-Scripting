@@ -1,9 +1,12 @@
 def greet():
-    print("Hello TK")
+    print("Hello")
 
 
-greet()
+#greet()
 
 
 def greet_with_name(name):
-    
+    print(f"Hello {name}")
+
+
+greet_with_name("mk12")
