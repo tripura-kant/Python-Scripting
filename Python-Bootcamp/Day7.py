@@ -4,12 +4,13 @@ word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 
 print(f'Pssst, the solution is {chosen_word}.')
-
+lives = 6
 display = []
 for letter in chosen_word:
   display += "_"
 print(display)
 
+while not in 
 
 #TODO-2: - Loop through each position in the chosen_word;
 #If the letter at that position matches 'guess' then reveal that letter in the display at that position.
@@ -29,6 +30,6 @@ if guess not in chosen_word:
   lives -= 1
   if lives == 0:
     end_of_game = True
-      print("End of game")
+    print("End of game")
 
 print(display)
