@@ -2,6 +2,7 @@
 import random
 word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
+end_of_game =  False
 
 print(f'Pssst, the solution is {chosen_word}.')
 lives = 6
