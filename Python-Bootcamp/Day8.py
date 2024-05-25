@@ -18,5 +18,6 @@ def greet_with(name, location):
     print(f"    What it is like in {location}")
 
 greet_with("monu", "bokaro")
+greet_with(name="monu122", location="ranchi")
 
 greet_with("shilpi", "delhi")
