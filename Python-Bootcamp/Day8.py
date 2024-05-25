@@ -1,12 +1,16 @@
-def greet():
-    print("Hello")
+# def greet():
+#     print("Hello")
+#
+#
+# #greet()
+#
+#
+# def greet_with_name(name):
+#     print(f"Hello {name}")
+#
+#
+# greet_with_name("mk12")
 
+# Functions with more than 1 input
 
-#greet()
-
-
-def greet_with_name(name):
-    print(f"Hello {name}")
-
-
-greet_with_name("mk12")
+def greet_with()
