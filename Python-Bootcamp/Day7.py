@@ -26,7 +26,9 @@ for position in range(len(chosen_word)):
   if letter == guess:
     display[position] = letter
 
-if 
+if "_" not in display:
+  end_of_game = True
+  print("You won")
 
 if guess not in chosen_word:
   lives -= 1
