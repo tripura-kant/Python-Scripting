@@ -13,4 +13,8 @@
 
 # Functions with more than 1 input
 
-def greet_with()
+def greet_with(name, location):
+    print("You name is {name}")
+    print("Your location is {location}")
+
+greet_with("monu", "bokaro")
