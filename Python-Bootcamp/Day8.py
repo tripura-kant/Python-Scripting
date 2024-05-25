@@ -54,5 +54,5 @@ def prime_checker(number):
     else:
         print("it's not a prime number")
 
-n = input("Enter num")
+n = int(input("Enter num "))
 prime_checker(number=n)
