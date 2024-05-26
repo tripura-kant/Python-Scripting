@@ -56,3 +56,4 @@ def prime_checker(number):
 
 n = int(input("Enter num "))
 prime_checker(number=n)
+
