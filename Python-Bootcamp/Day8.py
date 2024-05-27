@@ -69,9 +69,9 @@ shift = int(input("Type the shift number:\n"))
 # TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
 def encrypt(text, shift):
     cipher_text = ""
-    for letter in plain_text:
+    for letter in text:
         position = alphabet.index(letter)
-        new_position =  position + shift_amount
+        new_position =  position + shift
         new_letter = alphabet[new_position]
         cipher_text += new_letter
     print(f"The encoded text is {cipher_text}")
@@ -81,7 +81,7 @@ def encrypt(text, shift):
 # shift = 5
 # cipher_text = "mjqqt"
 # print output: "The encoded text is mjqqt"
-encrypt()
+encrypt(text=text, shift=3)
 ##HINT: How do you get the index of an item in a list:
 # https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-in-a-list
 
