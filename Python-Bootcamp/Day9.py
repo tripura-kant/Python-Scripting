@@ -7,5 +7,6 @@ programming_dictionary = {
 
 # print(programming_dictionary["Fuction"])
 
-for key, value in programming_dictionary:
-    print(key, value)
+for key in programming_dictionary:
+    print(key)
+    print(programming_dictionary[key])
