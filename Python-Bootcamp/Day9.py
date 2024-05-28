@@ -5,4 +5,7 @@ programming_dictionary = {
     "Fuction": "A piece of code"
 }
 
-print(programming_dictionary["Fuction"])
+# print(programming_dictionary["Fuction"])
+
+for key, value in programming_dictionary:
+    print(key, value)
