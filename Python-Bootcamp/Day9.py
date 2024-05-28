@@ -2,7 +2,7 @@
 
 programming_dictionary = {
     "Bug": "An error in a program that prevents the program from running",
-    "Fuction": "A piece of cpde"
+    "Fuction": "A piece of code"
 }
 
-print(programming_dictionary["Bug"])
+print(programming_dictionary["Fuction"])
