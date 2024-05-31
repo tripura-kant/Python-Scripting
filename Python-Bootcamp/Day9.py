@@ -90,10 +90,10 @@ def find_heighest_bidder(bidding_record):
             winner = bidder
     print(f"The winner is {winner} with a bid of {heighest_bid}")
 while not bidding_finish:
-    name = input("Enter name")
-    price = input("What is your bid? $")
+    name = input("Enter name    ")
+    price = int(input("What is your bid? $  "))
     bids[name] = price
-    s_continue = input("Any other bidder")
+    s_continue = input("Any other bidder    ")
     if s_continue == "no":
         bidding_finish = True
         find_heighest_bidder(bids)
