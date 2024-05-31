@@ -96,6 +96,7 @@ while not bidding_finish:
     s_continue = input("Any other bidder")
     if s_continue == "no":
         bidding_finish = True
+        find_heighest_bidder(bids)
     elif s_continue == "yes":
         print("ok")
 
