@@ -73,10 +73,29 @@
 # print(f"I've been to {travel_log[2]['country']} {travel_log[2]['visits']} times.")
 # print(f"My favourite city was {travel_log[2]['cities'][0]}.")
 
-
+#from replit import clear
 from art import logo
 print(logo)
 
-name = input("Enter name")
-price = input("What is your bid? $")
+bids = {}
+bidding_finish = False
+
+def find_heighest_bidder(bidding_record):
+    heighest_bid = 0
+    winner = ""
+    for bidder in bidding_record:
+        bid_amount = bidding_record[bidder]
+        if bid_amount > heighest_bid:
+            heighest_bid = bid_amount
+            winner = bidder
+    print(f"The winner is {winner} with a bid of {heighest_bid}")
+while not bidding_finish:
+    name = input("Enter name")
+    price = input("What is your bid? $")
+    bids[name] = price
+    s_continue = input("Any other bidder")
+    if s_continue == "no":
+        bidding_finish = True
+    elif s_continue == "yes":
+        print("ok")
 
