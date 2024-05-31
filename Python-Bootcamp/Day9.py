@@ -78,4 +78,5 @@ from art import logo
 print(logo)
 
 name = input("Enter name")
-price = input("What is your bid")
+price = input("What is your bid? $")
+
