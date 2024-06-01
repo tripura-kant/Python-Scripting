@@ -64,3 +64,7 @@ num2 = int(input("what is sec number: "))
 
 for choosen_sign in operation:
     print(choosen_sign)
+
+operation_symbol = input("Pick an operation from the line above: ")
+
+print(f" {num1} {operation_symbol} {num2} = {answer}")
