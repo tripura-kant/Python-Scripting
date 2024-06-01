@@ -67,4 +67,8 @@ for choosen_sign in operation:
 
 operation_symbol = input("Pick an operation from the line above: ")
 
-print(f" {num1} {operation_symbol} {num2} = {answer}")
+calculation_function = operation[operation_symbol]
+print(calculation_function)
+answer = calculation_function(num1, num2)
+
+#print(f" {num1} {operation_symbol} {num2} = {answer}")
