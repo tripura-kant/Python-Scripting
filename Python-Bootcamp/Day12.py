@@ -6,8 +6,10 @@ print("I'm thinking of a number between 1 and 100.")
 guess = intinput(("Enter a guess "))
 #Set difficulty
 def set_difficulty():
-    level = input("Set a level of difficulty: easy OR hard  ")
+    level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     print(f"You had selected {level}")
+    if level == "easy":
+
 
 answer = randint(1, 100)
 set_difficulty()
@@ -22,4 +24,4 @@ def check_answer(guess, answer):
     elif guess < answer:
         print("Guess too low")
     else:
-        print("Correct guess you won !!!!")
+        print(f"Correct guess you won!!! corrent answer is {answer}!!!!")
