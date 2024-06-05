@@ -1,6 +1,8 @@
-count = 10
+# Make function to set difficulty
 
-for number in range(1, count + 1):
+def set_difficulty():
+    level = input("Set a level of difficulty: easy OR hard  ")
+    print(f'You had selected {easy}')
 
-    if number % 2 == 0:
-        print(number)
+
+set_difficulty()
