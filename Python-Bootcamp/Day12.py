@@ -6,7 +6,7 @@ EASY_TURN = 10
 HARD_TURN = 5
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
-guess = intinput(("Enter a guess "))
+guess = int(input("Enter a guess "))
 #Set difficulty
 def set_difficulty():
     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
@@ -20,6 +20,10 @@ def set_difficulty():
 answer = randint(1, 100)
 set_difficulty()
 
+
+guess = int(input("Enter a guess "))
+turns = set_difficulty()
+print(f"You have {turns} remaining")
 # choosing a random number between 1 and 100
 
 # Let the user guess a num
