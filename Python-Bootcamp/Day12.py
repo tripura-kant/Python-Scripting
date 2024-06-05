@@ -7,14 +7,16 @@ HARD_TURN = 5
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
 guess = int(input("Enter a guess "))
+turns = set_difficulty()
+print(f"You have {turns} remaining")
 #Set difficulty
 def set_difficulty():
     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     print(f"You had selected {level}")
     if level == "easy":
-       return turns = EASY_TURN
+       return  EASY_TURN
     else:
-        return turns = HARD_TURN
+        return  HARD_TURN
 
 
 answer = randint(1, 100)
