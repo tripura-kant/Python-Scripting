@@ -15,3 +15,11 @@ set_difficulty()
 # choosing a random number between 1 and 100
 
 # Let the user guess a num
+
+def check_answer(guess, answer):
+    if guess > answer:
+        print("guess too high")
+    elif guess < answer:
+        print("Guess too low")
+    else:
+        print("Correct guess you won !!!!")
