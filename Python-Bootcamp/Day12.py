@@ -1,6 +1,9 @@
 # Make function to set difficulty
 
 from random import randint
+
+EASY_TURN = 10
+HARD_TURN = 5
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
 guess = intinput(("Enter a guess "))
@@ -9,6 +12,9 @@ def set_difficulty():
     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     print(f"You had selected {level}")
     if level == "easy":
+       return turns = EASY_TURN
+    else:
+        return turns = HARD_TURN
 
 
 answer = randint(1, 100)
