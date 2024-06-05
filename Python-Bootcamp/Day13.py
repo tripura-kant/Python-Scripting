@@ -29,8 +29,9 @@
 pages = 0
 word_per_page = 0
 pages = int(input("Number of pages: "))
-word_per_page == int(input("Number of words per page: "))
+word_per_page = int(input("Number of words per page: "))
 total_words = pages * word_per_page
+print(f"ACTUAL pages is {pages} word_per_page {word_per_page} and total_words {total_words}")
 print(total_words)
 
 # #Use a Debugger
