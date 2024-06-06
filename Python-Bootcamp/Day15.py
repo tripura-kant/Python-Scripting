@@ -11,7 +11,13 @@ answer = input("What would you like? (espresso/latte/cappuccino):    ").lower()
 if answer == "off":
     print("Turning off the machine...!!")
     sys.exit();
+elif answer == "report":
+    print("\nCurrent Resource Levels:")
+    print(f"Water: {water}ml")
+    print(f"Milk: {milk}ml")
+    print(f"Coffee: {coffee}g")
+    print(f"Money: ${money}\n")
+else:
+    print(f"You chose {answer}")
 
-print(f" You choosed {answer}")
-
-if answer == "report":
+#print(f" You choosed {answer}")
