@@ -22,4 +22,8 @@ else:
 
 #print(f" You choosed {answer}")
 
-print()
+    print(print("\nCurrent Resource Levels:")
+    print(print(f"Water: {water}ml")
+    print(print(f"Milk: {milk}ml")
+    print(print(f"Coffee: {coffee}g")
+    print(print(f"Money: ${money}\n")
