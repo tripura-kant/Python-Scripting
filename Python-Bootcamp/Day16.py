@@ -1,7 +1,9 @@
-import another_module
+# import another_module
+#
+# print(another_module.tripura_kant)
 
-print(another_module.tripura_kant)
+from turtle import Turtle
 
-import turtle
+timmy = Turtle()
 
-turtle.Turtle()
+print(timmy)
