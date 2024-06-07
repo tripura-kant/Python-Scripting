@@ -2,13 +2,17 @@
 #
 # print(another_module.tripura_kant)
 
-from turtle import Turtle
+# from turtle import Turtle
+#
+# timmy = Turtle()
+#
+# print(timmy)
+# timmy.shape("turtle")
+#
+# myscreen =  Screen()
+# print(myscreen.canvheight)
+# myscreen.exitonclick()
 
-timmy = Turtle()
 
-print(timmy)
-timmy.shape("turtle")
+import PrettyTable
 
-myscreen =  Screen()
-print(myscreen.canvheight)
-myscreen.exitonclick()
