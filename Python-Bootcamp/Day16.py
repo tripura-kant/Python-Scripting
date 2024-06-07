@@ -14,5 +14,5 @@
 # myscreen.exitonclick()
 
 
-import PrettyTable
+from prettytable import PrettyTable
 
