@@ -7,6 +7,8 @@ from turtle import Turtle
 timmy = Turtle()
 
 print(timmy)
+timmy.shape("turtle")
 
 myscreen =  Screen()
-print()
+print(myscreen.canvheight)
+myscreen.exitonclick()
