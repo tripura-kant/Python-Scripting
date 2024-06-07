@@ -1,0 +1,1 @@
+tripura_kant = 61
