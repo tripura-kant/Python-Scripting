@@ -16,4 +16,7 @@
 
 from prettytable import PrettyTable
 
-table = PrettyTable()
+table = PrettyTable(["Pokemon Name", "Type"])
+myTable.add_row(["Pikachu", "X", "B", "91.2 %"])
+
+print(table)
