@@ -7,3 +7,6 @@ from turtle import Turtle
 timmy = Turtle()
 
 print(timmy)
+
+myscreen =  Screen()
+print()
