@@ -10,10 +10,13 @@
 # print(user1.name)
 
 class User:
-  def __init__(self, user_id, username):
+  def __init__(self, user_id, username, roll_no):
     self.id = user_id
     self.username = username
+    self.roll_no = roll_no
 
-  User1 = User("001", "tripura")
+User1 = User("001", "tripura", "13")
 
-  print(User1.username)
+print(User1.username)
+print(User1.id)
+print(User1.roll_no)
