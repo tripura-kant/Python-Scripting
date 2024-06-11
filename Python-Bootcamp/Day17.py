@@ -23,8 +23,11 @@
 
 
 class Question:
-  def __init(self, text, answer):
+  def __init__(self, text, answer):
     self.text = text
-    self.amswer = answer
+    self.answer = answer
 
-Question1 = Question("2 + 2 ")
+Question1 = Question("2+3=5", True)
+
+
+print(Question1)
