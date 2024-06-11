@@ -31,3 +31,5 @@ Question1 = Question("2+3=5", True)
 
 
 print(Question1)
+
+print(f" question is {self.txt} and answer is {self.answer}")
