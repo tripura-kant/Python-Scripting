@@ -28,8 +28,4 @@ class Question:
     self.answer = answer
 
 Question1 = Question("2+3=5", True)
-
-
-print(Question1)
-
-print(f" question is {self.txt} and answer is {self.answer}")
+print(f" question is {Question1.text} and answer is {Question1.answer}")
