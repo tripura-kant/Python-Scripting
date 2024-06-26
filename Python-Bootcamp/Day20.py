@@ -13,9 +13,9 @@ def find_runner_up_score(num_scores, scores):
 
 # Example usage:
 if __name__ == "__main__":
-    # Reading input
-    num_scores = int(input().strip())  # Read number of scores (though not used in the logic)
-    scores = list(map(int, input().strip().split()))  # Read the list of scores
+    # Define the number of scores and the list of scores
+    num_scores = 5
+    scores = [2, 3, 6, 6, 1]
 
     # Find the runner-up score
     runner_up_score = find_runner_up_score(num_scores, scores)
@@ -23,4 +23,3 @@ if __name__ == "__main__":
     # Print the runner-up score
     print(runner_up_score)
 
-find_runner_up_score(5, 2 3 6 6 5)
