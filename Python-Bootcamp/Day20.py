@@ -20,6 +20,6 @@ if __name__ == "__main__":
     # Find the runner-up score
     runner_up_score = find_runner_up_score(num_scores, scores)
 
-    # Print the runner-up score
+    # Print the runner-up scor
     print(runner_up_score)
 
