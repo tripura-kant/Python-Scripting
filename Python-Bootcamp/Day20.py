@@ -22,3 +22,5 @@ if __name__ == "__main__":
 
     # Print the runner-up score
     print(runner_up_score)
+
+find_runner_up_score(5, 2 3 6 6 5)
