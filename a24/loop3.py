@@ -1,4 +1,4 @@
-i = int(input("Enter num1 "))  # 
+i = int(input("Enter num1 "))  #
 j = int(input("Enter num2 "))  # 3
 
 if i > j:
