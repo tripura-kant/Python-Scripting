@@ -39,7 +39,13 @@
  
 '''
 
-for i in range(1, 2):
-    for j in range(5, 0, -1):
-        print(j, end=" ")
+# for i in range(1, 2):
+#     for j in range(5, 0, -1):
+#         print(j, end=" ")
+#     print()
+
+n = int(input("Enter num    "))
+for i in range(1, n):
+    for j in range(1, 6):
+        print(1, end=" ")
     print()
