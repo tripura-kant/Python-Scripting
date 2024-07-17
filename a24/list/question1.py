@@ -14,7 +14,7 @@ n = int(input("Enter no: "))
 
 input_list = []
 for i in range(n):
-    num = input(f"Enter element {i + 1}: ")
+    num = int(input(f"Enter element {i + 1}: "))
     input_list.append(num)
 
 print(input_list)
