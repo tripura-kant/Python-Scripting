@@ -23,5 +23,5 @@ def count_char(my_string):
             symbol += 1
     print(f"Alphabet = {alphabet}, Digits = {digit}, Space = {space}, Symbol = {symbol}")
 
-
+    
 count_char(my_string)
