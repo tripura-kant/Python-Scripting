@@ -4,7 +4,7 @@ def longest_word(s: str) -> str:
 
     for char in my_string:
         if char == " ":
-            if len(char) > len(longest):
+            if len(current) > len(longest):
                 longest = current
             current = ""
         else:
