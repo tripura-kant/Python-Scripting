@@ -1,0 +1,5 @@
+m1 = int(input("enter "))
+m2 = int(input("enter "))
+m3 = int(input("enter "))
+m4 = int(input("enter "))
+m5 = int(input("enter "))
