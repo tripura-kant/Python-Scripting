@@ -6,4 +6,13 @@ my_string = "python is a good language"
 
 
 result = my_string.split()
-print(result)
+# print(result)
+
+result.reverse()
+# print(result)
+
+for word in result:
+    result = word[::-1]
+    print(result, end=" ")
+
+# print(" ".join(word[::-1] for word in result))
