@@ -7,8 +7,12 @@ marks = {
 
 }
 
-result = marks.items()
-print(list(result)[0][0])
+print(marks)
+marks.update({"english": 100})
+print(marks)
+
+# result = marks.items()
+# print(list(result)[0][0])
 
 # for k in marks:
 #     # print(k)
