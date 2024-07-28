@@ -7,6 +7,9 @@ marks = {
 
 }
 
+result = marks.items()
+print(list(result)[0][0])
+
 # for k in marks:
 #     # print(k)
 #     print(marks[k])
@@ -21,5 +24,5 @@ marks = {
 # for k in marks.keys():
 #     print(k, marks[k])
 
-for v in marks.values():
-    print(v)
+# for v in marks.values():
+#     print(v)
