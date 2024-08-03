@@ -74,10 +74,6 @@ while True:
                 acc.deposit(amount)
                 print(f"Your balace is {acc.get_balance()}")
 
-
-
-
-
     elif choice == 3:
         print("Exiting bank application    ")
         break
