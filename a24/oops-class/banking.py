@@ -80,12 +80,14 @@ while True:
                 print(f"Your balace is {acc.get_balance()}")
 
     elif choice == 6:
-        acc_no = int(input("ENter acc no"))
+        acc_no = int(input("Enter acc no"))
         withdraw_amount = int(input("Enter withdraw amount"))
         for acc in bank_details:
             if acc.acc_no == acc_no:
                 if acc.balance > withdraw_amount:
                     acc.withdraw(withdraw_amount)
+                else:
+                    print("Insufficient amount")
 
     elif choice == 3:
         print("Exiting bank application    ")
