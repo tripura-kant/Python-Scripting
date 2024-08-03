@@ -20,9 +20,20 @@ details = {
 # Nihar: 98
 # Akshay: 56
 
+# high = 0
+# for key, value in details.items():
+#     for marks in value:
+#         if marks > high:
+#             high = marks
+#     print(f"{key}: {high}")
+
+# #Q3. Find and print the student(s) with the highest individual score. If
+# multiple students have the same highest score, print all their names.
+# The highest mark is 98, scored by Nihar.
+
 high = 0
 for key, value in details.items():
     for marks in value:
         if marks > high:
-            high = marks
-    print(f"{key}: {high}")
+            high = max(max(marks) for marks in details.values())
+            print(f"{key}: {high}")
