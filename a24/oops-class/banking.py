@@ -24,8 +24,8 @@ class Banking:
         return self.balance
 
     def deposit(self, amount):
-        self.balance = amount
-        return amount
+        self.balance += amount
+        print(f"Updated balace is {self.balance}")
 
     def display(self):
         print(f"acc_no = {self.acc_no}")
