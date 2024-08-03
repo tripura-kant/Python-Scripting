@@ -27,6 +27,10 @@ class Banking:
         self.balance += amount
         print(f"Updated balace is {self.balance}")
 
+    def withdraw(self, withdraw_amount):
+        self.balance -= withdraw_amount
+        print(f"Updated balance is {self.balance}")
+
     def display(self):
         print(f"acc_no = {self.acc_no}")
         print(f"Name = {self.name}")
@@ -42,6 +46,7 @@ while True:
     print("3) Exit")
     print("4) Get balance")
     print("5) Deposit")
+    print("6) Withraw")
 
     choice = int(input("Enter your choice = "))
     if choice == 1:
@@ -73,6 +78,14 @@ while True:
             if acc.acc_no == acc_no:
                 acc.deposit(amount)
                 print(f"Your balace is {acc.get_balance()}")
+
+    elif choice == 6:
+        acc_no = int(input("ENter acc no"))
+        withdraw_amount = int(input("Enter withdraw amount"))
+        for acc in bank_details:
+            if acc.acc_no == acc_no:
+                if acc.balance > withdraw_amount:
+                    acc.withdraw(withdraw_amount)
 
     elif choice == 3:
         print("Exiting bank application    ")
