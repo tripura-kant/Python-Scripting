@@ -8,6 +8,7 @@ details = {
     "Akshay": [56, 40],
 }
 
+
 # Q1 Print all the marks of each student in a readable format.
 
 # for key, value in details.items():
@@ -27,13 +28,35 @@ details = {
 #             high = marks
 #     print(f"{key}: {high}")
 
+
 # #Q3. Find and print the student(s) with the highest individual score. If
 # multiple students have the same highest score, print all their names.
 # The highest mark is 98, scored by Nihar.
 
-high = 0
-for key, value in details.items():
-    for marks in value:
-        if marks > high:
-            high = max(max(marks) for marks in details.values())
-            print(f"{key}: {high}")
+# high = 0
+# for key, value in details.items():
+#     for marks in value:
+#         if marks > high:
+#             high = max(max(marks) for marks in details.values())
+#             print(f"{key}: {high}")
+
+# 4.Calculate and print the average marks of each student.
+# Anirudh: 66.33
+# Sanjay: 53.57
+# Muskan: 68.75
+# Nihar: 54.6
+# Akshay: 48.0
+
+
+def print_average_marks(details: Dict[str, List[int]]):
+    for student, marks in details.items():
+        total = 0
+        count = 0
+        for mark in marks:
+            total += mark
+            count += 1
+        average = total / count
+        print(f"{student}: {average:.2f}")
+
+
+print_average_marks(details)
