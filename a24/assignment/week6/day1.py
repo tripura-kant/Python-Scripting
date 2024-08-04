@@ -48,7 +48,25 @@ details = {
 # Akshay: 48.0
 
 
-def print_average_marks(details: Dict[str, List[int]]):
+# def print_average_marks(details: Dict[str, List[int]]):
+#     for student, marks in details.items():
+#         total = 0
+#         count = 0
+#         for mark in marks:
+#             total += mark
+#             count += 1
+#         average = total / count
+#         print(f"{student}: {average:.2f}")
+#
+#
+# print_average_marks(details)
+
+# Q5. Print the name of the student who has the highest average marks.
+# The highest average marks are 68.75, scored by Muskan.
+
+def print_highest_average(details: Dict[str, List[int]]):
+    highest_average = 0
+    top_student = ""
     for student, marks in details.items():
         total = 0
         count = 0
@@ -56,7 +74,10 @@ def print_average_marks(details: Dict[str, List[int]]):
             total += mark
             count += 1
         average = total / count
-        print(f"{student}: {average:.2f}")
+        if average > highest_average:
+            highest_average = average
+            top_student = student
+    print(f"The highest average marks are {highest_average:.2f}, scored by {top_student}.")
 
 
-print_average_marks(details)
+print_highest_average(details)
