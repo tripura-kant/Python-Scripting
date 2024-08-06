@@ -1,11 +1,15 @@
-lst = []
-N = int(input("enter"))
+def shift():
+    n = 5  # Read the number of elements
+    a = list(map(int, input().split()))  # Read the list of integers
 
-for i in range(0, N - 1):
-    ele = int(input("enter list"))
-    lst.append(ele)
-X = int(input("enter"))
-Y = int(input("enter"))
+    # Create a new list with the last element at the beginning
+    shifted_a = [a[-1]] + a[:-1]
 
-lst.insert(X - 1, Y)
-print(lst)
+    # Print the elements with proper spacing
+    for i in range(n):
+        print(shifted_a[i], end=" ")  # Print the current element
+
+
+# Example usage
+if __name__ == "__main__":
+    shift()
