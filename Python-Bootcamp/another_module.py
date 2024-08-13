@@ -1,1 +1,1 @@
-tripura_kant = 61
+tripura_kant = 62
