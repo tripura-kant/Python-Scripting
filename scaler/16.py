@@ -1,14 +1,6 @@
-s = "aasaSasdafaf"
+s = "hello"
 
-d = {}
-
-# for ch in s:
-#     d[ch] = d.get(ch, 0) + 1
-#
-# print(d)
-
-
+dic = {}
 for ch in s:
-    print(d.get(ch, 0) + 1)
-
-print(d)
+    dic[ch] = dic.get(ch, 0) + 1
+print(dic)
