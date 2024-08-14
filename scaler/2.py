@@ -1,4 +1,4 @@
-''' m1,m2,m3,m4,m5= marks of the five subjects
+    ''' m1,m2,m3,m4,m5= marks of the five subjects
     Output: Print percentage and the grade'''
 
 # YOUR CODE GOES HERE
