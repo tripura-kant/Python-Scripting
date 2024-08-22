@@ -4,9 +4,30 @@
 #
 #
 
-def greet():
-    print("greetings")
-    greet()
+# def greet():
+#     global count
+#     print(count)
+#     count += 1
+#     greet()
+#
+#
+# count = 1
+# greet()
+# def func(i, n):
+#     if i > n:
+#         return
+#     print("Anirudh")
+#     func(i + 1, n)
+#
+#
+# func(1, 4)
 
 
-greet()
+def func(i, n):
+    if i < 1:
+        return
+    func(i - 1, n)
+    print(i)
+
+
+func(4, 4)
