@@ -5,7 +5,9 @@ def rev_array(arr):
     end = len(arr) - 1
 
     while start < end:
-        arr[start], arr[end] = arr[end], arr[start]
+        temp = arr[start]
+        arr[start] = arr[end]
+        arr[end] = temp
 
         start += 1
         end -= 1
