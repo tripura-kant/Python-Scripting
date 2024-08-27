@@ -4,10 +4,10 @@ def has_good_pair(A, B):
     for num in A:
         complement = B - num
         if complement in seen:
-            return True
+            return 1
         seen.add(num)
 
-    return False
+    return 0
 
 
 # Example usage:
