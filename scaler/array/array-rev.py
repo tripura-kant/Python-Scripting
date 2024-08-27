@@ -1,4 +1,4 @@
-# print(arr[::-1])
+# print(arr[::-1]
 
 def rev_array(arr):
     start = 0
