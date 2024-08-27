@@ -8,12 +8,16 @@ class Solution:
     # @param B : integer
     # @return an integer
     def solve(self, A, B):
-        for i in range(len(A):
-            if (A[i] + A[j] == B):
+        for i in range(len(A)):
+            for j in range(len(A)):
+                if i == j:
+                    continue
+                if A[i] + A[j] == B:
+                    return 1
+        return 0
 
 
-
-
-
-A = [1, 2, 3, 4]
-B = 7
+A = [1, 2, 4]
+B = 3
+res = Solution()
+print(res.solve(A, B))
