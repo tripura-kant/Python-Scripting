@@ -12,4 +12,4 @@ def min_time_to_equal_elements(A):
 
 # Example usage
 A = [2, 4, 1, 3, 2]
-print(min_time_to_equal_elements(A))  # Output: 8
+print(min_time_to_equal_elements(A))  # Output: 0
