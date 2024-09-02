@@ -13,7 +13,7 @@ minute = send_time.minute
 
 # Define the phone number and message
 phone_number = "+919899800837"
-message = "Good Morning. How are you ?"
+message = "Good Morning. How are you ? "
 
 # Send the WhatsApp message
 kit.sendwhatmsg(phone_number, message, hour, minute)
