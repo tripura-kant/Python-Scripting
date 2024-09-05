@@ -7,5 +7,5 @@ def compute_prefix_sum(A):
     return A
 
 
-A = [1, 2, 3, 4, 2]
+A = [1, 2, 3, 4]
 print(compute_prefix_sum(A))
