@@ -10,4 +10,4 @@ def nobel_integer(arr):
 
 # Example usage
 arr = [1, 1, 3, 3]
-print(nobel_integer(arr))  # Output should be 1
+print(nobel_integer(arr))  # Output should be
