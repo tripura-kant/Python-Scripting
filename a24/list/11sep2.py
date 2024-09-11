@@ -19,12 +19,12 @@ def find_second_largest(arr):
             second_large = arr[i]
 
     for i in range(0, n):
-        if arr[i] > second_large and arr[i] != large:
-            second_large = arr[i]
+        if arr[i] < second_small and arr[i] != small:
+            second_small = arr[i]
 
     #     large = max(large, arr[i])
     #     small = min(small, arr[i])
-    return large, small
+    return [second_large, second_small]
 
 
 arr = [1, 2, 3, 4, 5]
