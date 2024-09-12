@@ -8,5 +8,5 @@ def check_sort(arr):
     return True
 
 
-arr = [1, 2, 3, 4, 5]
+arr = [1, 2, 3, 4, 5, 6]
 print(check_sort(arr))
