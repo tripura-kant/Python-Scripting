@@ -1,0 +1,6 @@
+x = [1, 2]
+y = [3, 5]
+
+for i in x:
+    for j in y:
+        print()
