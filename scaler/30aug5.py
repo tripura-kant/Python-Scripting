@@ -1,1 +1,0 @@
-def solve(self, A):
