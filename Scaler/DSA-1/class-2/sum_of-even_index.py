@@ -3,7 +3,7 @@ def sumofevenindex(arr, queries, n):
     PSe[0] = arr[0]
 
     # create psum array for even indexed elements
-    for i in range(1, n):
+    for i in range(1, n + 1):
         if i % 2 == 0:
             PSe[i] = PSe[i - 1] + arr[i]
         else:
