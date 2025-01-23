@@ -11,6 +11,6 @@ def count_ag(s):
 
     return count_of_pair
 
-test_string = "abegegag"
+test_string = "abegegaga"
 result = count_ag(test_string)
 print(result)
