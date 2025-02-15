@@ -9,6 +9,13 @@
 # print(myString.replace("'", ""))
 
 
-mystring = 'Hi, I am, Python'
+# mystring = 'Hi, I am, Python'
 
-print(my)
+# print(mystring.split(','))
+
+# dockerVersion = 'Docker Version 27.5.1, build 9fg672'
+
+# print(dockerVersion.split(' ')[2].strip(","))
+
+mystring = ["hello", "I", "am", "Python"]
+print(' '.join(mystring))
