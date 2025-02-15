@@ -16,7 +16,7 @@ def solve(A, B, C):
 
     # If no subarray sum equals C, print 0
     print(0)
-
+cd
 
 # Test case
 A = [4, 3, 2, 6, 1]

@@ -11,17 +11,25 @@ myDevOpsTools={
 # print(list(myDevOpsTools.values()))
 # print(list(myDevOpsTools.items()))
 
-print(myDevOpsTools.get("dbs")[1])
+# print(myDevOpsTools.get("dbs")[1])
 
 # print("configTool" in myDevOpsTools.keys()) #print("configTool" in myDevOpsTools)
 # print("ansible" in myDevOpsTools.values())
 
 
-# jsonResponse={
-#     "tools": [ { "cloud": ["aws", "azure"]}, {"container":['docker',"k8s"]} ],
-#     "version": "1.0"
-# }
+jsonResponse={
+    "tools": [ { "cloud": ["aws", "azure"]}, {"container":['docker',"k8s"]} ],
+    "version": "1.0"
+}
+
+jsonResponse={
+    "tools": [ "aws", "azure" ],
+    "version": "1.0"
+}
+
 
 # # toolslist=jsonResponse.get('tools')
 # # print(toolslist[0])
 # print(jsonResponse['tools'][0].get("cloud")[0])
+
+print(jsonResponse.get('tools')[0])
