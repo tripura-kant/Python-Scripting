@@ -1,0 +1,1 @@
+hello welcome to python3 'trianings' class.property
