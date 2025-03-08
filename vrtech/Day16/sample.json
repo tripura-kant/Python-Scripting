@@ -1,0 +1,13 @@
+{
+  "name": "Emily",
+  "age": 28,
+  "hobbies": [
+    "reading",
+    "traveling",
+    "coding"
+  ],
+  "address": {
+    "city": "Tokyo",
+    "zip": "100-0001"
+  }
+}
