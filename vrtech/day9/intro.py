@@ -3,7 +3,9 @@ import sys
 import platform
 from packaging.version import Version
 
-# pythonVer=sys.version.split()[0]
+# print(sys.version)
+# pythonVer = sys.version.split()[0]
+# print(pythonVer)
 
 # minReqVersion=Version('3.9.21')
 # curPyVersion=Version(pythonVer)
@@ -40,11 +42,11 @@ from packaging.version import Version
 # print(sys.path)
 # import defaults
 # print(defaults.KUBECONFIG)
-
-print(f"Python Script Name: {sys.argv[0]}")
-
-print(sys.argv, len(sys.argv))
-# myList=sys.argv[1:] 
+#
+# print(f"Python Script Name: {sys.argv[0]}")
+#
+# print(sys.argv, len(sys.argv))
+# myList=sys.argv[1:]
 # print(f'My Command-line args: {myList}')
 
 # if len(sys.argv) != 3:
@@ -53,3 +55,9 @@ print(sys.argv, len(sys.argv))
 # serviceName = sys.argv[1]
 # actionOnService = sys.argv[2]
 # print(f'Service Name: {serviceName} and action on it is: {actionOnService}')
+import os
+
+# Corrected path with escaped spaces and quotes
+# os.makedirs("/Users/tripurakant/Documents/code/My git/Python-Scripting/vrtech/day10", exist_ok=True)
+x = platform.system()
+print(x)
