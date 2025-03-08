@@ -1,6 +1,6 @@
 import os
 
-path = "//Python-Scripting/vrtech/Day15/"
+path = "/Python-Scripting/vrtech/Day15/"
 files = os.listdir(path)
 
 for index, filename in enumerate(files, start=1):
