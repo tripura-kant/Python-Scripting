@@ -6,7 +6,7 @@ except ModuleNotFoundError:
     print(f'Install request module and try again')
     sys.exit(1)
 
-APIURL = 'https://jsonplaceholder.typicode.com/post/'
+APIURL = 'https://jsonplaceholder.typicode.com/posts/'
 
 response = requests.get(url=APIURL, verify=True)
 st_code = response.status_code
