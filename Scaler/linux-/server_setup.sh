@@ -4,7 +4,7 @@
     apt update -y
     apt upgrade -y
     apt install -y nginx apache2-utils ufw fail2ban vim
-    sudo apt update && sudo apt install -y apache2 && sudo systemctl enable --now apache2
+    sudo apt update && sudo apt install -y apache2-utils && sudo systemctl enable --now apache2
 
   }
 
