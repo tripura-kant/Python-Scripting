@@ -13,4 +13,8 @@ class calculator(object):
         return x * y
 
 
-mycalculator = calculator
+x = 20
+y = 23
+mycalculator = calculator(x, y)
+print(mycalculator.addition(x, y))
+print(mycalculator.multiply(x, y))
